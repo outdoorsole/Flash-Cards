@@ -84,10 +84,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Apple View Controller-->
         <scene sceneID="9MY-i3-QWv">
             <objects>
-                <viewController id="K58-TD-zdP" sceneMemberID="viewController">
+                <viewController id="K58-TD-zdP" customClass="AppleViewController" customModule="Flash_Cards" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pZX-TS-Aeb"/>
                         <viewControllerLayoutGuide type="bottom" id="as6-7c-fpS"/>
@@ -104,6 +104,9 @@
                                 <rect key="frame" x="162" y="434" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="K58-TD-zdP" eventType="touchUpInside" id="xme-Ju-SgV"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="manzana" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cO8-SY-PKd">
                                 <rect key="frame" x="152" y="139" width="70" height="19"/>
@@ -120,10 +123,10 @@
             </objects>
             <point key="canvasLocation" x="844" y="-1236"/>
         </scene>
-        <!--View Controller-->
+        <!--Egg View Controller-->
         <scene sceneID="Nyb-qz-uP2">
             <objects>
-                <viewController id="IuB-vf-VuK" sceneMemberID="viewController">
+                <viewController id="IuB-vf-VuK" customClass="EggViewController" customModule="Flash_Cards" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IA9-on-H8r"/>
                         <viewControllerLayoutGuide type="bottom" id="EKj-O0-zpn"/>
@@ -140,6 +143,9 @@
                                 <rect key="frame" x="162" y="437" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="IuB-vf-VuK" eventType="touchUpInside" id="vKk-0U-8gn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="huevo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buw-az-pV7">
                                 <rect key="frame" x="164" y="140" width="47" height="21"/>
@@ -156,10 +162,10 @@
             </objects>
             <point key="canvasLocation" x="844" y="-571"/>
         </scene>
-        <!--View Controller-->
+        <!--Grape View Controller-->
         <scene sceneID="ing-fs-v8Q">
             <objects>
-                <viewController id="fdf-LO-8BQ" sceneMemberID="viewController">
+                <viewController id="fdf-LO-8BQ" customClass="GrapeViewController" customModule="Flash_Cards" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R77-3y-O0r"/>
                         <viewControllerLayoutGuide type="bottom" id="ugb-uu-TKr"/>
@@ -176,6 +182,9 @@
                                 <rect key="frame" x="162" y="433" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="fdf-LO-8BQ" eventType="touchUpInside" id="IFv-kU-10c"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="uva" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORQ-u3-v2u">
                                 <rect key="frame" x="173" y="134" width="28" height="21"/>
@@ -190,12 +199,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBh-yR-hKw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="844" y="81"/>
+            <point key="canvasLocation" x="844" y="71"/>
         </scene>
-        <!--View Controller-->
+        <!--Wine View Controller-->
         <scene sceneID="HFs-EX-VJS">
             <objects>
-                <viewController id="EbY-7E-s5T" sceneMemberID="viewController">
+                <viewController id="EbY-7E-s5T" customClass="WineViewController" customModule="Flash_Cards" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BZb-d0-bxE"/>
                         <viewControllerLayoutGuide type="bottom" id="Clw-Tb-cxf"/>
@@ -212,6 +221,9 @@
                                 <rect key="frame" x="162" y="446" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="EbY-7E-s5T" eventType="touchUpInside" id="1I9-zz-D2y"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="vino" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xem-Qq-PQa">
                                 <rect key="frame" x="171" y="138" width="32" height="21"/>
@@ -228,10 +240,10 @@
             </objects>
             <point key="canvasLocation" x="844" y="1478"/>
         </scene>
-        <!--View Controller-->
+        <!--Sausage View Controller-->
         <scene sceneID="UqU-8k-fhn">
             <objects>
-                <viewController id="IDY-YX-hAk" sceneMemberID="viewController">
+                <viewController id="IDY-YX-hAk" customClass="SausageViewController" customModule="Flash_Cards" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="atC-KM-vHM"/>
                         <viewControllerLayoutGuide type="bottom" id="HdI-LI-9UW"/>
@@ -248,6 +260,9 @@
                                 <rect key="frame" x="162" y="465" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="IDY-YX-hAk" eventType="touchUpInside" id="q4p-vo-0Kv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="salchicha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afd-3M-kkO">
                                 <rect key="frame" x="151" y="145" width="72" height="21"/>
