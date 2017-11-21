@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="17B48" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Flash_Cards" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,7 +21,49 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uw4-7J-hTg">
+                                <rect key="frame" x="168" y="191" width="38" height="30"/>
+                                <state key="normal" title="apple"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Hh-8o-3JM">
+                                <rect key="frame" x="172" y="241" width="30" height="30"/>
+                                <state key="normal" title="egg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQm-Yu-AFB">
+                                <rect key="frame" x="167" y="291" width="40" height="30"/>
+                                <state key="normal" title="grape"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhL-A7-Zbb">
+                                <rect key="frame" x="158" y="341" width="58" height="30"/>
+                                <state key="normal" title="sausage"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UZ-de-srk">
+                                <rect key="frame" x="171" y="391" width="32" height="30"/>
+                                <state key="normal" title="wine"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spanish Flash Cards!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYy-G9-erQ">
+                                <rect key="frame" x="107" y="70" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KYy-G9-erQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0oE-qR-MWx"/>
+                            <constraint firstItem="nQm-Yu-AFB" firstAttribute="top" secondItem="1Hh-8o-3JM" secondAttribute="bottom" constant="20" id="ECC-dc-FSC"/>
+                            <constraint firstItem="1Hh-8o-3JM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lec-ig-232"/>
+                            <constraint firstItem="7UZ-de-srk" firstAttribute="top" secondItem="FhL-A7-Zbb" secondAttribute="bottom" constant="20" id="V8f-33-20d"/>
+                            <constraint firstItem="7UZ-de-srk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W7T-8b-6qH"/>
+                            <constraint firstItem="uw4-7J-hTg" firstAttribute="top" secondItem="KYy-G9-erQ" secondAttribute="bottom" constant="100" id="YFM-5c-qGy"/>
+                            <constraint firstItem="uw4-7J-hTg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yjq-63-pKt"/>
+                            <constraint firstItem="KYy-G9-erQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="70" id="cNr-Pz-ohq"/>
+                            <constraint firstItem="FhL-A7-Zbb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q15-Dw-EcD"/>
+                            <constraint firstItem="1Hh-8o-3JM" firstAttribute="top" secondItem="uw4-7J-hTg" secondAttribute="bottom" constant="20" id="s8y-Bu-zK2"/>
+                            <constraint firstItem="nQm-Yu-AFB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zJf-eW-VVJ"/>
+                            <constraint firstItem="FhL-A7-Zbb" firstAttribute="top" secondItem="nQm-Yu-AFB" secondAttribute="bottom" constant="20" id="zkS-zb-zIp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
