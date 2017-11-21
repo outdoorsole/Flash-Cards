@@ -25,22 +25,37 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uw4-7J-hTg">
                                 <rect key="frame" x="168" y="191" width="38" height="30"/>
                                 <state key="normal" title="apple"/>
+                                <connections>
+                                    <segue destination="K58-TD-zdP" kind="presentation" id="Gab-CQ-YEd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Hh-8o-3JM">
                                 <rect key="frame" x="172" y="241" width="30" height="30"/>
                                 <state key="normal" title="egg"/>
+                                <connections>
+                                    <segue destination="IuB-vf-VuK" kind="presentation" id="tUa-ok-Oy6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQm-Yu-AFB">
                                 <rect key="frame" x="167" y="291" width="40" height="30"/>
                                 <state key="normal" title="grape"/>
+                                <connections>
+                                    <segue destination="fdf-LO-8BQ" kind="presentation" id="yc6-OZ-3Rt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhL-A7-Zbb">
                                 <rect key="frame" x="158" y="341" width="58" height="30"/>
                                 <state key="normal" title="sausage"/>
+                                <connections>
+                                    <segue destination="IDY-YX-hAk" kind="presentation" id="4MF-AV-nPV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UZ-de-srk">
                                 <rect key="frame" x="171" y="391" width="32" height="30"/>
                                 <state key="normal" title="wine"/>
+                                <connections>
+                                    <segue destination="EbY-7E-s5T" kind="presentation" id="jLf-So-Ub1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spanish Flash Cards!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYy-G9-erQ">
                                 <rect key="frame" x="107" y="70" width="161" height="21"/>
@@ -103,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QZp-C9-GPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="933.60000000000002" y="-1185.1574212893554"/>
+            <point key="canvasLocation" x="844" y="-1236"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Nyb-qz-uP2">
@@ -139,7 +154,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwW-cb-sJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="934" y="-515"/>
+            <point key="canvasLocation" x="844" y="-571"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ing-fs-v8Q">
@@ -175,7 +190,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBh-yR-hKw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="940" y="141"/>
+            <point key="canvasLocation" x="844" y="81"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HFs-EX-VJS">
@@ -211,7 +226,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8m1-lJ-AqA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="940" y="1479"/>
+            <point key="canvasLocation" x="844" y="1478"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UqU-8k-fhn">
@@ -247,7 +262,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="esa-Ed-Tm9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="940" y="806"/>
+            <point key="canvasLocation" x="844" y="797"/>
         </scene>
     </scenes>
     <resources>
