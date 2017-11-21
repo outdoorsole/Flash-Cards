@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1600EAE21FC3F93A0030D939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600EAE11FC3F93A0030D939 /* AppDelegate.swift */; };
-		1600EAE41FC3F93A0030D939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600EAE31FC3F93A0030D939 /* ViewController.swift */; };
 		1600EAE71FC3F93A0030D939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1600EAE51FC3F93A0030D939 /* Main.storyboard */; };
 		1600EAE91FC3F93A0030D939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1600EAE81FC3F93A0030D939 /* Assets.xcassets */; };
 		1600EAEC1FC3F93B0030D939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1600EAEA1FC3F93B0030D939 /* LaunchScreen.storyboard */; };
+		1600EAFA1FC400F90030D939 /* AppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600EAF91FC400F90030D939 /* AppleViewController.swift */; };
+		1600EAFC1FC401070030D939 /* GrapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600EAFB1FC401070030D939 /* GrapeViewController.swift */; };
+		1600EAFE1FC401110030D939 /* EggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600EAFD1FC401110030D939 /* EggViewController.swift */; };
+		1600EB001FC401190030D939 /* WineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600EAFF1FC401190030D939 /* WineViewController.swift */; };
+		1600EB021FC401350030D939 /* SausageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600EB011FC401350030D939 /* SausageViewController.swift */; };
+		1600EB041FC401420030D939 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600EB031FC401420030D939 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1600EADE1FC3F93A0030D939 /* Flash-Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash-Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1600EAE11FC3F93A0030D939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1600EAE31FC3F93A0030D939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1600EAE61FC3F93A0030D939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1600EAE81FC3F93A0030D939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1600EAEB1FC3F93B0030D939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1600EAED1FC3F93B0030D939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1600EAF91FC400F90030D939 /* AppleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleViewController.swift; sourceTree = "<group>"; };
+		1600EAFB1FC401070030D939 /* GrapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrapeViewController.swift; sourceTree = "<group>"; };
+		1600EAFD1FC401110030D939 /* EggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggViewController.swift; sourceTree = "<group>"; };
+		1600EAFF1FC401190030D939 /* WineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineViewController.swift; sourceTree = "<group>"; };
+		1600EB011FC401350030D939 /* SausageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SausageViewController.swift; sourceTree = "<group>"; };
+		1600EB031FC401420030D939 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				1600EAE11FC3F93A0030D939 /* AppDelegate.swift */,
-				1600EAE31FC3F93A0030D939 /* ViewController.swift */,
+				1600EB031FC401420030D939 /* MainViewController.swift */,
+				1600EAF91FC400F90030D939 /* AppleViewController.swift */,
+				1600EAFB1FC401070030D939 /* GrapeViewController.swift */,
+				1600EAFD1FC401110030D939 /* EggViewController.swift */,
+				1600EB011FC401350030D939 /* SausageViewController.swift */,
+				1600EAFF1FC401190030D939 /* WineViewController.swift */,
 				1600EAE51FC3F93A0030D939 /* Main.storyboard */,
 				1600EAE81FC3F93A0030D939 /* Assets.xcassets */,
 				1600EAEA1FC3F93B0030D939 /* LaunchScreen.storyboard */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1600EAE41FC3F93A0030D939 /* ViewController.swift in Sources */,
+				1600EB021FC401350030D939 /* SausageViewController.swift in Sources */,
 				1600EAE21FC3F93A0030D939 /* AppDelegate.swift in Sources */,
+				1600EAFE1FC401110030D939 /* EggViewController.swift in Sources */,
+				1600EB001FC401190030D939 /* WineViewController.swift in Sources */,
+				1600EAFC1FC401070030D939 /* GrapeViewController.swift in Sources */,
+				1600EAFA1FC400F90030D939 /* AppleViewController.swift in Sources */,
+				1600EB041FC401420030D939 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +322,7 @@
 				1600EAF21FC3F93B0030D939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
